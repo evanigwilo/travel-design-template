@@ -4,6 +4,7 @@ import { Fragment } from "react";
 import NavBar from "../components/NavBar";
 import HotelContainer from "../components/Hotel/HotelContainer";
 import RoomContainer from "../components/Room/RoomContainer";
+import ReviewContainer from "../components/Review/ReviewContainer";
 
 const Home = () => {
   return (
@@ -11,6 +12,7 @@ const Home = () => {
       <NavBar />
       <HotelContainer />
       <RoomContainer />
+      <ReviewContainer />
     </Fragment>
   );
 };
